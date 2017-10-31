@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="FindView">
+        <!--X点坐标-->
+        <attr name="fv_pointX" format="float" />
+        <!--Y点坐标-->
+        <attr name="fv_pointY" format="float" />
+        <!--起始角度-->
+        <attr name="fv_startRotate" format="integer" />
+        <!--旋转角度-->
+        <attr name="fv_rotate" format="integer" />
+        <!--旋转半径-->
+        <attr name="fv_radius" format="float" />
+        <!--同心圆半径-->
+        <attr name="fv_circleRadius" format="float" />
+        <!--同心圆半径是否发生变化-->
+        <attr name="fv_isCircleChange" format="boolean" />
+        <!--同心圆半径变化值-->
+        <attr name="fv_circleRadiusChange" format="float" />
+        <!--同心圆是否会逐渐扩大-->
+        <attr name="fv_isCircleLarge" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="RadarView">
+        <!--起始点X坐标-->
+        <attr name="rv_pointX" format="float" />
+        <!--起始点Y点坐标-->
+        <attr name="rv_pointY" format="float" />
+        <!--大圆半径-->
+        <attr name="rv_radius" format="float" />
+        <!--小圆半径-->
+        <attr name="rv_smallCircleRadius" format="float" />
+        <!--半径是否发生变化-->
+        <attr name="rv_isCircleChange" format="boolean" />
+    </declare-styleable>
+</resources>
